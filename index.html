@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+<title>Title</title>
+</head>
+<body>
+  <!--Conteiner for the image gallery-->
+  <div class="container">
+    <div class="myslides">
+      <div class="numbertext">1 / 6</div>
+      <img src="image/IMG_20210826_185948.jpg" style="width:100%">
+    </div>
+    <div class="myslides">
+      <div class="numbertext">2 / 6</div>
+      <img src="image/IMG_20211018_200018.jpg" style="width:100%">
+  
+    </div>
+    <div class="myslides">
+      <div class="numbertext">3 / 6</div>
+      <img src="image/IMG_20211208_113028.jpg">
+    </div>
+    <div class="myslides">
+      <div class="numbertext">4 / 6</div>
+      <img src="image/IMG_20211208_113108.jpg">
+
+    </div>
+    <div class="myslides">
+      <div class="numbertext">5 / 6</div>
+      <img src="image/IMG_20211208_193624.jpg">
+    </div>
+    <div class="myslides">
+      <div class="numbertext">6 / 6</div>
+      <img src="image/IMG_20211208_194603.jpg">
+    </div>
+
+    <!--next and previous buttons-->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    <!--Image text-->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+    <!--Thumbnail images-->
+    <div class="row">
+      <div class="column">
+        <img class="demo cursor" src="image/IMG_20210826_185948.jpg" style="width:100%" onclick="currentSlide(1)">
+
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="image/IMG_20211018_200018.jpg" style="width:100%" onclick="currentSlide(2)">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="image/IMG_20211208_113028.jpg" style="width:100%" onclick="currentSlider(3)">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="image/IMG_20211208_113108.jpg" style="width:100%" onclick="currentSlider(4)">
+
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="image/IMG_20211208_193624.jpg" style="width:100%" onclick="currentSlider(5)">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="image/IMG_20211208_194603.jpg" style="width:100%" onclick="currentSlider(6)">
+      </div>
+      
+    </div>
+    
+   
+  </div>
+<!-- Optional JavaScript -->
+<!-- Popper.js first, then Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+<script src="playground.js"></script>
+</body>
+</html>
